@@ -1,0 +1,17 @@
+/* Styles for Navbar */
+.navbar {
+    max-height: 75px; 
+}
+
+.navbar-brand {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #20ddb1cf;
+    text-decoration-color: white;
+    color: white;
+}
