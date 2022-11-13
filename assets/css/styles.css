@@ -5,8 +5,8 @@
 
 .navbar-brand {
     margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
     font-size: 18px;
@@ -14,4 +14,12 @@
     background-color: #20ddb1cf;
     text-decoration-color: white;
     color: white;
+}
+
+.nav-link:hover{
+  background-color: #20ddb1cf;
+}
+
+.dropdown-item:hover{
+  background-color: #20ddb1cf;
 }
