@@ -1,4 +1,4 @@
-/* Styles for Navbar */
+/* --- Styles for Navbar --- */
 .navbar {
     max-height: 75px; 
 }
@@ -16,10 +16,51 @@
     color: white;
 }
 
-.nav-link:hover{
-  background-color: #20ddb1cf;
+.nav-link:hover {
+    background-color: #20ddb1cf;
 }
 
-.dropdown-item:hover{
-  background-color: #20ddb1cf;
+.dropdown-item:hover {
+    background-color: #20ddb1cf;
+}
+
+/* --- Styles for Title and Landing Page --- */
+body {
+    background-color: #dcdcdc;
+}
+
+.box {
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+    padding: 10px 10px 10px 10px;
+    color:black;
+    background-color: white; 
+}
+
+h3 {
+    margin-top: 20px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-weight: bolder;
+    color: #20ddb1cf;
+}
+
+p {
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-size: 14;
+    color: black;
+}
+
+.figure {
+    width: 40%;
+    height: 40%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-box:hover {
+    border-color:#20ddb1cf;
+    border-style: solid;
 }
