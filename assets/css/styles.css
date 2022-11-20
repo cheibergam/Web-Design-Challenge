@@ -73,6 +73,11 @@ img {
     color: #20ddb1cf;
 }
 
+.table {
+    font-size: 14px;
+    border-top-color: white;
+}
+
 /* --- Media --- */
 @media(max-width: 1024px) {
     .navbar-expand-lg {
