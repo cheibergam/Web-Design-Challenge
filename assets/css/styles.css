@@ -13,7 +13,7 @@
     font-weight: bold;
     background-color: #20ddb1cf;
     text-decoration-color: white;
-    color: white;
+    color: #dcdcdc;
 }
 
 .nav-link:hover {
@@ -32,7 +32,7 @@ body {
 .box {
     margin-top: 40px; 
     margin-bottom: 20px; 
-    padding: 10px 10px 10px 10px;
+    padding: 30px;
     color:black;
     background-color: white; 
 }
@@ -60,7 +60,30 @@ img {
     height: 100%;
 }
 
-.right-box:hover {
+.img-box:hover {
     border-color:#20ddb1cf;
     border-style: solid;
+}
+
+.subtitle {
+    margin-top: 24px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-weight: bolder;
+    text-align: center;
+    color: #20ddb1cf;
+}
+
+/* --- Media --- */
+@media(max-width: 1024px) {
+    .navbar-expand-lg {
+        background-color: #0BADA6;
+    }
+    .navbar {
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div {
+      margin: inherit; 
+      background-color: white;  
+    }
 }
