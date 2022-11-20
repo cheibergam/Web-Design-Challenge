@@ -44,6 +44,13 @@ h3 {
     color: #20ddb1cf;
 }
 
+h5 {
+    margin-top: 20px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-weight: bolder;
+    color: #20ddb1cf;
+}
+
 p {
     font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
     font-size: 14;
